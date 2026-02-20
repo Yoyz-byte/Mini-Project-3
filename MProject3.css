@@ -1,0 +1,205 @@
+body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    max-width: 95%;
+    background-color: #f5f7fa;
+    color: #2d2d2d;
+}
+img {
+    width: 40px;
+    height: 30px;
+    border-radius: 10px;
+}
+#list ul {
+    list-style-type: none;
+    display: flex; 
+    justify-content: flex-end;
+    gap: 20px;
+}
+#list a {
+    text-decoration: none;
+    color: #171414;
+}
+#list li {
+    padding: 10px;  
+}
+#header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0;
+    padding: 5px;
+}
+#name {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-size: 20px;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px;
+    color: #1a1818;
+}
+#container {
+    display: flex;
+    justify-content: space-evenly; 
+    background-color: #e9eef3;
+}
+#intro {
+    padding: 20px;
+}
+#intro p{
+    text-align: center;
+    font-size: 15px;
+    padding-left: 60px;
+    font-weight: 200;
+}
+#intro h2 {
+    font-size: 40px;
+    text-align: center;
+    padding-left: 50px;
+}
+#photo {
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    justify-content: center;
+    padding: 30px;
+}
+#photo img {
+    width: 150px;
+    height: 100px;
+    border-radius: 50px;
+}
+#photo button  {
+    border-radius: 10px;
+    padding: 5px;
+    border: 2px solid blue;
+    background-color: #4a90e2;
+}
+#photo button:hover {
+    background-color: white;
+}
+#photo a:hover {
+    color: #4a90e2;
+}
+#photo a {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+#about {
+    max-width: 700px;
+    margin: 10px auto;
+    padding: 20px;
+    line-height: 1.9;
+    text-align: center;
+    font-weight: 400;
+}
+.head {
+    font-size: 28px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid blue;
+    padding-bottom: 15px;
+    text-align: center;
+    width: 600px;
+    margin: 0 auto 30px auto;
+}
+#H, #C, #J {
+    display: inline-block;
+    transition: transform 0.5s ease, color 0.3s ease;
+    cursor: pointer;
+    font-weight: 300;
+}
+#H:hover, #C:hover, #J:hover {
+    transform: scale(1.1);
+    color: blue;
+    font-weight: bold;
+    text-shadow: 2px 5px 5px rgba(0,0,0,0.1);
+}
+#project-cont {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    gap: 50px;
+    padding: 40px 5%;
+    flex-wrap: nowrap;
+}
+#project-cont a {
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.pane {
+    flex: 1;
+    min-width: 250px;
+    height: auto;
+    border: 1px solid rgb(60, 60, 182);
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-sizing: border-box;
+    box-shadow: 20px 10px 5px rgb(129, 129, 137);
+    transition: transform 0.5s ease-in;
+    background-color: #dbe2ea;
+}
+.pane:hover {
+    transform: scale(1.1);
+}
+.pane img {
+    width: auto;
+    height: 80px;
+    margin-bottom: 10px;
+    flex-shrink: 0;
+    object-fit: contain;
+}
+.pane p {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin: 0;
+    line-height: 1.5;
+}
+#services {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    padding: 15px;
+}
+.serve {
+    width: 80%;
+    border: 1px solid rgba(0,0,255,0.3);
+    border-radius: 15px;
+    padding: 10px;
+    border-left: 3px solid blue;
+    max-width: 800px;
+    box-sizing: border-box;
+    height: auto;
+    box-shadow: 2px 5px 10px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    background-color: #dbe2ea;
+}
+.serve p {
+    line-height: 1.6;
+    font-size: 16px;
+    font-weight: 300;
+    margin: 5px ;
+}
+.serve:hover {
+    transform: translateX(10px);
+}
+footer {
+    border-top: 2px solid blue;
+    padding: 10px;
+    background-color:#e9eef3;
+    color: rgb(12, 112, 166);
+    font-weight: 600;
+}
+
+
